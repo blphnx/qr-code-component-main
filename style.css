@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+  background: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 500px;
+  padding: 16px 16px 40px 16px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 100px hsl(212, 38%, 82%);
+}
+.qrimg {
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+}
+.textCntainer {
+    padding: 0px 16px;
+    margin-top: 12px;
+    width: 288px;
+    height: 131px;
+}
